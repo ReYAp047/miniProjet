@@ -1,0 +1,57 @@
+===Base de données cour_du_soir
+
+== Structure de la table cours
+
+|------
+|Colonne|Type|Null|Valeur par défaut
+|------
+|//**nomCour**//|varchar(20)|Non|
+|niveau|varchar(20)|Non|
+|fichier|varchar(100)|Non|
+|idP|int(11)|Non|
+== Déchargement des données de la table cours
+
+== Structure de la table etudiants
+
+|------
+|Colonne|Type|Null|Valeur par défaut
+|------
+|nomPre|varchar(30)|Non|
+|niveau|varchar(15)|Non|
+|dateEnter|varchar(15)|Non|
+|nbSeances|int(11)|Non|
+|//**numTel**//|int(8)|Non|
+|payement|varchar(15)|Non|
+|nomG|varchar(30)|Non|
+== Déchargement des données de la table etudiants
+
+|Foulen2 Ben Foulen2|1er|01/20/2021|4|87654321|Non Payé|MP2L
+|Foulen3 Ben Foulen3|7éme|01/20/2021|0|11223344|Payé|B14
+|Foulen1 Ben Foulen1|1er|01/20/2021|4|12345678|Non Payé|MP2L
+== Structure de la table groups
+
+|------
+|Colonne|Type|Null|Valeur par défaut
+|------
+|//**nomGroup**//|varchar(30)|Non|
+|nombre|int(11)|Non|
+|niveau|varchar(20)|Non|
+|nbSeances|int(11)|Non|
+|seancesProch|varchar(30)|Non|
+|heur|varchar(12)|Non|
+== Déchargement des données de la table groups
+
+|MP2L|2|1er|4|07/01/2021|21h
+|Tic E|0|1er|0|31/12/2021|22h
+|B14|1|7eme|0|20/01/2021|14h
+|Tic F|0|1er|0|12/02/2021|18h
+== Structure de la table login
+
+|------
+|Colonne|Type|Null|Valeur par défaut
+|------
+|//**id**//|int(11)|Non|
+|login|varchar(15)|Non|
+|password|varchar(30)|Non|
+== Déchargement des données de la table login
+
